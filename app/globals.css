@@ -1,0 +1,323 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+  --primary: 196 100% 47%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 210 40% 96.1%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 196 100% 47%;
+  --radius: 0.5rem;
+
+  /* Colores adicionales del logo */
+  --orange: 30 100% 50%;
+  --black: 0 0% 0%;
+  --red: 0 100% 50%;
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+  --card: 222.2 84% 4.9%;
+  --card-foreground: 210 40% 98%;
+  --popover: 222.2 84% 4.9%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 196 100% 47%;
+  --primary-foreground: 222.2 47.4% 11.2%;
+  --secondary: 217.2 32.6% 17.5%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+  --accent: 217.2 32.6% 17.5%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 196 100% 47%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Animaciones personalizadas */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Estilos para imágenes de Instagram */
+.instagram-grid img {
+  transition: transform 0.3s ease;
+}
+
+.instagram-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para el comparador de imágenes */
+.comparison-slider {
+  position: relative;
+  overflow: hidden;
+  cursor: ew-resize;
+}
+
+.comparison-slider .before,
+.comparison-slider .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.comparison-slider .before {
+  clip-path: polygon(0 0, var(--position) 0, var(--position) 100%, 0 100%);
+}
+
+.comparison-slider .slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--position);
+  width: 4px;
+  background: white;
+  cursor: ew-resize;
+}
+
+.comparison-slider .slider-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el botón de WhatsApp */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+
+/* Estilos para el banner de descuento */
+.discount-banner {
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary) 100%);
+}
+
+/* Estilos para la sección de reviews */
+.review-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para la página 404 y error */
+.error-container {
+  background: radial-gradient(circle at center, rgba(var(--primary), 0.1) 0%, transparent 70%);
+}
+
+/* Estilos para la sección de términos y privacidad */
+.prose h2 {
+  color: hsl(var(--primary));
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.prose p {
+  margin-bottom: 1em;
+  line-height: 1.7;
+}
+
+/* Estilos para el modo oscuro */
+.dark .bg-white {
+  background-color: hsl(var(--card));
+}
+
+.dark .text-foreground {
+  color: hsl(var(--foreground));
+}
+
+.dark .bg-sky-50 {
+  background-color: hsl(var(--muted));
+}
+
+.dark .from-sky-50 {
+  --tw-gradient-from: hsl(var(--muted));
+}
+
+.dark .to-white {
+  --tw-gradient-to: hsl(var(--background));
+}
+
+.dark .from-white {
+  --tw-gradient-from: hsl(var(--background));
+}
+
+.dark .to-sky-50 {
+  --tw-gradient-to: hsl(var(--muted));
+}
+
+.dark .shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.dark .shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.dark .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+.dark .bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.dark .bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.dark .text-muted-foreground {
+  color: hsl(var(--muted-foreground));
+}
+
+.dark .border-gray-300 {
+  border-color: hsl(var(--border));
+}
+
+.dark .bg-gray-100 {
+  background-color: hsl(var(--muted));
+}
+
+.dark .text-gray-700 {
+  color: hsl(var(--foreground));
+}
+
+.dark .text-gray-600 {
+  color: hsl(var(--muted-foreground));
+}
+
+.dark .text-gray-500 {
+  color: hsl(var(--muted-foreground));
+}
+
+.dark .text-gray-400 {
+  color: hsl(var(--muted-foreground));
+}
+
+.dark .bg-gray-300 {
+  background-color: hsl(var(--muted));
+}
+
+.dark .hover\:bg-gray-400:hover {
+  background-color: hsl(var(--accent));
+}
+
+/* Fix for dark mode services page */
+.dark .bg-orange-50,
+.dark .bg-orange-100,
+.dark .bg-orange-200,
+.dark .to-orange-100,
+.dark .from-orange-50 {
+  background-color: rgba(30, 41, 59, 0.5) !important;
+  background-image: none !important;
+}
+
+.dark .bg-pink-50,
+.dark .bg-pink-100,
+.dark .bg-pink-200,
+.dark .to-pink-100,
+.dark .from-pink-50 {
+  background-color: rgba(30, 41, 59, 0.5) !important;
+  background-image: none !important;
+}
+
+.dark .text-orange-500 {
+  color: #f97316 !important;
+}
+
+.dark .text-pink-500 {
+  color: #ec4899 !important;
+}
+
+.dark .border-orange-200 {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.dark .border-pink-200 {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.dark .fill-yellow-400 {
+  fill: #facc15;
+}
+
+.dark .text-yellow-400 {
+  color: #facc15;
+}
+
+/* Fix for logo in hero section */
+.hero-logo {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hero-logo img {
+  object-fit: cover;
+  border-radius: 50%;
+}

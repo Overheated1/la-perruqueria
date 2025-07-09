@@ -1,0 +1,525 @@
+{
+  "hero": {
+    "title": "Grooming premium para tu mascota",
+    "subtitle": "Más que un corte — una experiencia de bienestar.",
+    "cta": "Reserva por WhatsApp"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "gallery": "Galería",
+    "reviews": "Reseñas",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "signIn": "Iniciar Sesión",
+    "bookNow": "Reservar ahora"
+  },
+  "footer": {
+    "slogan": "Grooming con amor y calidad.",
+    "rights": "© 2025 La Perruquería. Todos los derechos reservados.",
+    "links": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "gallery": "Galería",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos y Condiciones"
+    },
+    "sections": {
+      "links": "Enlaces",
+      "legal": "Legal"
+    }
+  },
+  "about": {
+    "metadata": {
+      "title": "Sobre Nosotros",
+      "description": "Conoce nuestra historia y valores en La Perruquería."
+    },
+    "title": "Quiénes Somos",
+    "subtitle": "Descubre la historia y los valores detrás de nuestra pasión.",
+    "ourHistoryTitle": "Nuestra Historia",
+    "ourHistoryParagraph1": "La Perruquería comenzó con una pasión por las mascotas y el grooming.",
+    "ourHistoryParagraph2": "Nuestro equipo de profesionales está dedicado al bienestar de cada mascota.",
+    "ourHistoryParagraph3": "Seguimos creciendo gracias a la confianza de nuestra comunidad.",
+    "ourValuesTitle": "Nuestros Valores",
+    "values": {
+      "love": {
+        "title": "Amor por los Animales",
+        "description": "Cada mascota es tratada con el amor que merece."
+      },
+      "quality": {
+        "title": "Calidad Premium",
+        "description": "Ofrecemos solo los mejores productos y servicios."
+      },
+      "attention": {
+        "title": "Atención Personalizada",
+        "description": "Cada visita se adapta a las necesidades únicas de tu mascota."
+      }
+    }
+  },
+  "gallery": {
+    "metadata": {
+      "title": "Galería",
+      "description": "Explora nuestras transformaciones y clientes felices."
+    },
+    "title": "Nuestra Galería",
+    "subtitle": "Antes y Después, más momentos de Instagram"
+  },
+  "beforeAfter": {
+    "title": "Antes y Después",
+    "subtitle": "Mira las increíbles transformaciones que logramos.",
+    "beforeLabel": "Antes",
+    "afterLabel": "Después",
+    "sets": {
+      "alt1": "Antes y después del grooming - perro pequeño",
+      "alt2": "Antes y después del grooming - perro mediano",
+      "alt3": "Antes y después del grooming - perro grande"
+    },
+    "ariaLabelPrefix": "Comparación de grooming para"
+  },
+  "instagram": {
+    "title": "Síguenos en Instagram",
+    "subtitle": "Conéctate con nuestros últimos looks.",
+    "followUs": "Síguenos",
+    "viewOnInstagram": "Ver en Instagram"
+  },
+  "education": {
+    "title": "Consejos y Educación",
+    "subtitle": "Aprende cómo cuidar mejor a tu mascota desde casa.",
+    "categories": {
+      "care": "Cuidado",
+      "tips": "Consejos",
+      "warnings": "Advertencias",
+      "health": "Salud"
+    },
+    "articles": {
+      "care": [
+        {
+          "title": "Cuidado del pelaje",
+          "description": "Cómo cuidar el pelaje de tu mascota",
+          "content": "Consejos para mantener un pelaje saludable."
+        }
+      ],
+      "tips": [
+        {
+          "title": "Baño adecuado",
+          "description": "Cada cuánto bañar a tu mascota.",
+          "content": "Se recomienda un baño cada 3-4 semanas, dependiendo del tipo de pelaje."
+        }
+      ],
+      "whatsappTooltip": {
+        "title": "WhatsApp",
+        "description": "Puedes escribirnos directamente por WhatsApp.",
+        "ariaLabel": "Abrir conversación de WhatsApp",
+        "close": "Cerrar"
+      },
+      "warnings": [
+        {
+          "title": "Productos peligrosos",
+          "description": "Qué evitar al bañar a tu mascota.",
+          "content": "No uses productos humanos como champús o colonias."
+        }
+      ],
+      "health": [
+        {
+          "title": "Vacunas necesarias",
+          "description": "Calendario de vacunación.",
+          "content": "Asegúrate de tener las vacunas actualizadas: rabia, moquillo, etc."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "description": "Envíanos un mensaje o agenda una cita.",
+    "subtitle": "¡Nos encantaría saber de ti!",
+    "address": {
+      "label": "Dirección",
+      "value": "Calle de las Mascotas 123, Perrópolis"
+    },
+    "whatsappTooltip": {
+      "title": "WhatsApp",
+      "description": "Puedes escribirnos directamente por WhatsApp.",
+      "ariaLabel": "Abrir conversación de WhatsApp",
+      "close": "Cerrar"
+    },
+    "phone": {
+      "label": "Teléfono",
+      "value": "+34 600 123 456"
+    },
+    "email": {
+      "label": "Correo Electrónico",
+      "value": "info@laperruqueria.com"
+    },
+    "hours": {
+      "label": "Horario de Atención",
+      "value": "Lunes a Viernes: 9:00 - 18:00"
+    },
+    "social": {
+      "follow": "Síguenos",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp"
+    },
+    "contactButton": "Contactar",
+    "mapTitle": "Encuéntranos en el mapa",
+    "form": {
+      "title": "Formulario de Contacto",
+      "description": "Rellena el formulario y te responderemos lo antes posible.",
+      "name": "Tu Nombre",
+      "email": "Tu Correo",
+      "message": "Tu Mensaje",
+      "submit": "Enviar Mensaje",
+      "success": "¡Tu mensaje ha sido enviado!"
+    }
+  },
+  "services": {
+    "metadata": {
+      "title": "Servicios",
+      "description": "Explora todos nuestros servicios y paquetes de grooming."
+    },
+    "title": "Nuestros Servicios",
+    "subtitle": "Todo lo que tu mascota necesita para verse y sentirse genial.",
+    "smallDogs": "Perros pequeños",
+    "mediumDogs": "Perros medianos",
+    "largeDogs": "Perros grandes",
+    "services": {
+      "premium_bath": {
+        "title": "Baño Premium",
+        "description": "Refresca y limpia a tu mascota con el mejor cuidado.",
+        "price_small": "€30",
+        "price_medium": "€40",
+        "price_large": "€50"
+      },
+      "full_grooming": {
+        "title": "Grooming Completo",
+        "description": "Estilo profesional adaptado a tu mascota.",
+        "price_small": "€45",
+        "price_medium": "€55",
+        "price_large": "€65"
+      },
+      "spa_treatment": {
+        "title": "Spa Relajante",
+        "description": "Una experiencia relajante para tu amigo peludo.",
+        "price_small": "€60",
+        "price_medium": "€70",
+        "price_large": "€80"
+      }
+    },
+    "sizeGuide": {
+      "title": "Guía de Tamaños",
+      "small": "Hasta 10 kg",
+      "medium": "10-25 kg",
+      "large": "Más de 25 kg"
+    },
+    "servicesList": {
+      "title": "Incluye",
+      "items": [
+        "Corte de uñas",
+        "Limpieza de oídos",
+        "Champú especial",
+        "Secado con toalla y aire",
+        "Aromaterapia opcional"
+      ]
+    },
+    "featured": {
+      "bath": {
+        "title": "Baño Premium",
+        "description": "Refresca y limpia a tu mascota.",
+        "items": [
+          "Champú natural",
+          "Acondicionado del pelaje",
+          "Secado con toalla y aire",
+          "Limpieza de oídos",
+          "Corte de uñas"
+        ]
+      },
+      "cut": {
+        "title": "Grooming Completo",
+        "description": "Estilo profesional adaptado a tu mascota.",
+        "items": [
+          "Corte completo",
+          "Recorte sanitario",
+          "Limpieza de ojos y oídos",
+          "Recorte de almohadillas"
+        ]
+      },
+      "spa": {
+        "title": "Spa de Lujo",
+        "description": "Una experiencia de relajación premium.",
+        "items": [
+          "Baño con aromaterapia",
+          "Masaje relajante",
+          "Mascarilla hidratante",
+          "Tratamiento para almohadillas"
+        ]
+      }
+    },
+    "packages": {
+      "title": "Paquetes Especiales",
+      "subtitle": "Elige el mejor plan para tu mascota.",
+      "popular": {
+        "tag": "Popular",
+        "title": "Cuidado Básico",
+        "description": "Ideal para el mantenimiento regular.",
+        "price": "€45",
+        "items": [
+          "Baño",
+          "Corte de uñas",
+          "Limpieza de oídos"
+        ],
+        "button": "Seleccionar Plan"
+      },
+      "best": {
+        "tag": "Mejor Opción",
+        "title": "Grooming Plus",
+        "description": "Cuidado completo en un solo paquete.",
+        "price": "€65",
+        "items": [
+          "Grooming completo",
+          "Tratamiento spa",
+          "Accesorios"
+        ],
+        "button": "Seleccionar Plan"
+      },
+      "vip": {
+        "tag": "VIP",
+        "title": "Spa de Lujo",
+        "description": "Cuidado exclusivo para tu mascota.",
+        "price": "€85",
+        "items": [
+          "Todos los servicios",
+          "Reservas prioritarias",
+          "Regalo de bienvenida"
+        ],
+        "button": "Seleccionar Plan"
+      }
+    },
+    "contactCta": "¿Necesitas ayuda para elegir? Contáctanos"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Iniciar Sesión",
+      "description": "Accede a tu cuenta y gestiona tus citas.",
+      "emailPlaceholder": "Introduce tu correo electrónico",
+      "password": "Contraseña",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "submit": "Iniciar Sesión",
+      "loading": "Iniciando sesión...",
+      "orContinueWith": "O continúa con",
+      "google": "Google",
+      "facebook": "Facebook",
+      "termsNotice": "Al iniciar sesión, aceptas nuestros ",
+      "terms": "términos del servicio.",
+      "errorTitle": "¡Ups! Algo salió mal.",
+      "errorDescription": "Verifica tus credenciales e inténtalo de nuevo.",
+      "oauthErrorDescription": "No se pudo iniciar sesión con el proveedor."
+    }
+  },
+  "error": {
+    "title": "Algo salió mal",
+    "description": "Ocurrió un error inesperado.",
+    "retry": "Intentar de nuevo",
+    "backToHome": "Volver al inicio"
+  },
+  "notFound": {
+    "title": "¡Ups! Página no encontrada",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "home": "Volver al inicio",
+    "contact": "Contactar Soporte"
+  },
+  "privacy": {
+    "metadata": {
+      "title": "Política de Privacidad",
+      "description": "Conoce cómo manejamos tus datos."
+    },
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 28 de abril de 2025",
+    "sections": [
+      {
+        "title": "1. Información que Recopilamos",
+        "content": [
+          "En La Perruquería, recopilamos la siguiente información personal:",
+          "- Nombre y apellido del propietario",
+          "- Información de contacto (número de teléfono, correo electrónico)",
+          "- Nombre, raza, edad y necesidades específicas de su mascota",
+          "- Historial de servicios previos",
+          "- Información de pago (procesada de manera segura)"
+        ]
+      },
+      {
+        "title": "2. Cómo Utilizamos su Información",
+        "content": [
+          "Utilizamos la información recopilada para:",
+          "- Proporcionar y mejorar nuestros servicios",
+          "- Comunicarnos con usted sobre citas, promociones o cambios en nuestros servicios",
+          "- Procesar pagos",
+          "- Mantener registros de salud y preferencias de su mascota",
+          "- Cumplir con obligaciones legales"
+        ]
+      },
+      {
+        "title": "3. Protección de la Información",
+        "content": [
+          "Implementamos medidas de seguridad diseñadas para proteger su información personal. Sin embargo, ningún método de transmisión por Internet o almacenamiento electrónico es 100% seguro, por lo que no podemos garantizar su seguridad absoluta."
+        ]
+      },
+      {
+        "title": "4. Compartir Información",
+        "content": [
+          "No vendemos, intercambiamos ni transferimos su información personal a terceros sin su consentimiento, excepto cuando sea necesario para proporcionar un servicio solicitado o requerido por ley."
+        ]
+      },
+      {
+        "title": "5. Cookies y Tecnologías Similares",
+        "content": [
+          "Nuestro sitio web utiliza cookies para mejorar su experiencia. Puede configurar su navegador para rechazar todas las cookies o para indicar cuándo se envía una cookie. Sin embargo, si no acepta cookies, es posible que algunas partes de nuestro sitio no funcionen correctamente."
+        ]
+      },
+      {
+        "title": "6. Sus Derechos",
+        "content": [
+          "Usted tiene derecho a:",
+          "- Acceder a su información personal",
+          "- Corregir información inexacta",
+          "- Solicitar la eliminación de sus datos",
+          "- Oponerse al procesamiento de sus datos",
+          "- Retirar su consentimiento en cualquier momento"
+        ]
+      },
+      {
+        "title": "7. Cambios a esta Política",
+        "content": [
+          "Podemos actualizar nuestra política de privacidad periódicamente. Le notificaremos cualquier cambio publicando la nueva política de privacidad en esta página."
+        ]
+      },
+      {
+        "title": "8. Contacto",
+        "content": [
+          "Si tiene preguntas sobre esta política de privacidad, por favor contáctenos al +1 (786) 719-0231 o envíe un correo electrónico a privacy@laperruqueria.com."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "metadata": {
+      "title": "Términos y Condiciones",
+      "description": "Lee nuestros términos y condiciones."
+    },
+    "title": "Términos y Condiciones",
+    "lastUpdated": "Última actualización: 28 de abril de 2025",
+    "sections": [
+      {
+        "title": "1. Aceptación de los Términos",
+        "content": [
+          "Al utilizar los servicios de La Perruquería, usted acepta estos términos y condiciones en su totalidad. Si no está de acuerdo con estos términos, por favor no utilice nuestros servicios."
+        ]
+      },
+      {
+        "title": "2. Descripción del Servicio",
+        "content": [
+          "La Perruquería ofrece servicios de peluquería y estética canina. Nuestros servicios incluyen, pero no se limitan a: baños, cortes de pelo, peinados, limpieza de oídos, corte de uñas y otros tratamientos estéticos para perros."
+        ]
+      },
+      {
+        "title": "3. Citas y Cancelaciones",
+        "content": [
+          "Las citas pueden ser programadas por teléfono, WhatsApp o a través de nuestro sitio web.",
+          "Solicitamos que las cancelaciones se realicen con al menos 24 horas de anticipación. Las cancelaciones tardías o ausencias pueden estar sujetas a un cargo."
+        ]
+      },
+      {
+        "title": "4. Salud y Seguridad de las Mascotas",
+        "content": [
+          "Es responsabilidad del propietario informarnos sobre cualquier condición médica, alergias o comportamientos especiales de su mascota antes del servicio.",
+          "Nos reservamos el derecho de rechazar el servicio si consideramos que podría comprometer la salud o seguridad de la mascota o nuestro personal."
+        ]
+      },
+      {
+        "title": "5. Vacunación",
+        "content": [
+          "Todas las mascotas deben estar al día con sus vacunas, incluyendo rabia, moquillo y tos de las perreras.",
+          "Podemos solicitar comprobantes de vacunación en cualquier momento."
+        ]
+      },
+      {
+        "title": "6. Precios y Pagos",
+        "content": [
+          "Los precios varían según el tamaño, raza y condición del pelaje de la mascota.",
+          "El pago completo se espera al momento de la prestación del servicio.",
+          "Aceptamos efectivo y principales tarjetas de crédito/débito."
+        ]
+      },
+      {
+        "title": "7. Satisfacción del Cliente",
+        "content": [
+          "Si no está satisfecho con nuestro servicio, por favor infórmenos dentro de las 48 horas siguientes y haremos lo posible por resolver el problema."
+        ]
+      },
+      {
+        "title": "8. Fotografías y Marketing",
+        "content": [
+          "Podemos tomar fotografías de las mascotas durante o después del servicio para usar en nuestras redes sociales y material promocional.",
+          "Si prefiere que no fotografiemos a su mascota, por favor háganoslo saber."
+        ]
+      },
+      {
+        "title": "9. Limitación de Responsabilidad",
+        "content": [
+          "Aunque tomamos todas las precauciones razonables, no podemos ser responsables por reacciones alérgicas imprevistas a productos, lesiones que la mascota pueda infligirse debido a su comportamiento, o condiciones preexistentes que puedan manifestarse durante o después del servicio."
+        ]
+      },
+      {
+        "title": "10. Modificaciones a los Términos",
+        "content": [
+          "Nos reservamos el derecho de modificar estos términos en cualquier momento.",
+          "Las modificaciones entrarán en vigor inmediatamente después de su publicación en nuestro sitio web."
+        ]
+      },
+      {
+        "title": "11. Contacto",
+        "content": [
+          "Si tiene preguntas sobre estos términos, por favor contáctenos al +1 (786) 719-0231 o envíe un correo electrónico a info@laperruqueria.com."
+        ]
+      }
+    ]
+  },
+  "home": {
+    "metaTitle": "La Perruquería | Servicios de Grooming Premium",
+    "metaDescription": "Servicios profesionales de grooming para perros. Baños, cortes, estilismo y más para mantener a tu mascota increíble."
+  },
+  "discountBanner": {
+    "message": "¡Bienvenido! Obtén un 10% de descuento en tu primera visita con el código:",
+    "code": "WELCOME10"
+  },
+  "reviews": {
+    "metadata": {
+      "title": "Reseñas",
+      "description": "Lee lo que dicen nuestros clientes felices."
+    },
+    "title": "Reseñas de Clientes",
+    "subtitle": "¡Tu opinión cuenta!"
+  },
+  "reviewsSection": {
+    "title": "Opiniones de Clientes",
+    "sortBy": "Ordenar por",
+    "sortOptions": {
+      "recent": "Más recientes",
+      "highest": "Mejor puntuados",
+      "lowest": "Peor puntuados"
+    },
+    "likesLabel": "Me gusta",
+    "repliesLabel": "Respuestas",
+    "reviewCount": "{count} reseñas",
+    "mockComments": [
+      "Excelente servicio y atención.",
+      "Mi perro salió feliz y limpio.",
+      "Muy profesionales y cuidadosos.",
+      "El mejor grooming de la ciudad.",
+      "Repetiremos seguro."
+    ]
+  }
+}
